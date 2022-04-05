@@ -8,7 +8,7 @@
 - [Сборка в Jenkins](#boom-Jenkins-job)
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
 - [Allure отчет](#earth_africa-Allure-отчет)
-- [Отчет в Telegram](#earth_africa3-Уведомление-в-Telegram-при-помощи-бота)
+- [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
 
 
 ## :boom: Реализованные проверки
@@ -84,7 +84,7 @@ test
 
 
 
-## Уведомление-в-Telegram-при-помощи-бота
+## :earth_africa: Уведомление-в-Telegram-при-помощи-бота
 <p align="center">
 <img src="image/screen/telegramNotification.PNG" alt="Jenkins"/></a>
 </p>
