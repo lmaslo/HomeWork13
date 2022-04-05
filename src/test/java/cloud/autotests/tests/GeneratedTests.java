@@ -1,6 +1,7 @@
 package cloud.autotests.tests;
 
 import cloud.autotests.helpers.DriverUtils;
+import com.codeborne.selenide.Condition;
 import io.qameta.allure.Description;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
@@ -15,82 +16,68 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 public class GeneratedTests extends TestBase {
     @Test
-    @Description("Check open page OZON Travel")
-    @DisplayName("open page OZON Travel")
-    void checkHeaderTest() {
-        step("Открыть https://www.ozon.ru/", () -> {
-            open("https://www.ozon.ru/");
+    @Description("Check logo wildberries")
+    @DisplayName("Check logo wildberries")
+    void checkLogoTest() {
+        step("Открыть https://www.wildberries.ru/", () -> {
+            open("https://www.wildberries.ru/");
         });
-        step("Перейти на страницу OZON TRAVEL", () -> {
-            $(By.partialLinkText("Travel")).click();
-        });
-        step("Проверить заголовок Покупать авиа- и ж/д билеты на Ozon удобно!", () -> {
-            $("#__ozon").shouldHave(text("Покупать авиа- и ж/д билеты на Ozon удобно!"));
-        });
-    }
-
-
-    @Test
-    @Description("Check header Tab avia")
-    @DisplayName("Check header Tab avia")
-    void checkHeaderTabAviaTest() {
-        step("Open url 'https://www.ozon.ru/travel/'", () ->
-                open("https://www.ozon.ru/travel/"));
-
-        step("Проверить, что на странице есть вкладка Авиабилеты", () -> {
-            $(".ui-q1").shouldHave(text("Авиабилеты"));
-        });
-
-        step("Открыть вкладку Авиабилеты", () -> {
-            $(".ui-q1").$(withText("Авиабилеты")).click();
-        });
-
-        step("Проверить заголовок на вкладке Авиабилеты - Поиск дешёвых авиабилетов", () -> {
-            $(".aay8").shouldHave(text("Поиск дешёвых авиабилетов"));
+        step("Проверить что есть элемент с классом logo и он видимый", () -> {
+            $(".nav-element__logo").should(Condition.visible);
         });
     }
 
     @Test
-    @Description("Check header Tab Railway")
-    @DisplayName("Check header Tab Railway")
-    void checkHeaderTabRailwayTest() {
-        step("Open url 'https://www.ozon.ru/travel/'", () ->
-                open("https://www.ozon.ru/travel/"));
+    @Description("Check search text 'сумка'")
+    @DisplayName("Check search ")
+    void checkSearchTest() {
+        step("Open url 'https://www.wildberries.ru/'", () ->
+                open("https://www.wildberries.ru/"));
 
-        step("Проверить, что на странице есть вкладка ЖД билеты", () -> {
-            $(".ui-q1").shouldHave(text("ЖД билеты"));
+        step("Ввести в поисковую строку «сумка»", () -> {
+            $(".search-catalog__input").setValue("сумка").pressEnter();
         });
 
-        step("Открыть вкладку ЖД билеты", () -> {
-            $(".ui-q1").$(withText("ЖД билеты")).click();
-        });
-
-        step("Проверить заголовок на вкладке ЖД билеты - Жд билеты на поезд", () -> {
-            $(".aay8").shouldHave(text("Жд билеты на поезд"));
+        step("Проверить что появился текст По запросу «сумка» найдено", () -> {
+            $(".searching-results__title").shouldHave(text("По запросу «сумка» найдено"));
         });
     }
 
     @Test
-    @Description("Check header Tab Hotels")
-    @DisplayName("Check header Tab Hotels")
-    void checkHeaderTabHotelsTest() {
-        step("Open url 'https://www.ozon.ru/travel/'", () ->
-                open("https://www.ozon.ru/travel/"));
+    @Description("Check header Tab location")
+    @DisplayName("Check Tab location")
+    void checkHeaderLocationTest() {
+        step("Open url 'https://www.wildberries.ru/'", () ->
+                open("https://www.wildberries.ru/"));
 
-        step("Проверить, что на странице есть вкладка Отели", () -> {
-            $(".ui-q1").shouldHave(text("Отели"));
+        step("Перейти на страницу Адрес", () -> {
+            $(".j-item-addresses").click();
         });
 
-        step("Открыть вкладку Отели", () -> {
-            $(".ui-q1").$(withText("Отели")).click();
+        step("Проверить что появился текст Информация о доставке и пунктах выдачи", () -> {
+            $(".delivery-geo__title").shouldHave(text("Информация о доставке и пунктах выдачи"));
         });
-
-        step("Проверить заголовок на вкладке Отели - Бронирование отелей и гостиниц", () -> {
-            $(".aay8").shouldHave(text("Бронирование отелей и гостиниц"));
-        });
-
     }
 
+    @Test
+    @Description("Check error auth empty input phone")
+    @DisplayName("Check error auth")
+    void checkHeaderAuthTest() {
+        step("Open url 'https://www.wildberries.ru/'", () ->
+                open("https://www.wildberries.ru/"));
+
+        step("Перейти на страницу Авторизации", () -> {
+            $(".j-main-login").click();
+        });
+        step("Не заполнять поле телефон. Сразу клик на Получить код", () -> {
+            $("#requestCode").click();
+        });
+        step("Проверка текста ошибки", () -> {
+            $(".j-error-full-phone").shouldHave(text("Введите номер телефона!"));
+        });
+
+
+    }
 
 
     @Test
@@ -103,7 +90,6 @@ public class GeneratedTests extends TestBase {
         step("Console logs should not contain text 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
             String errorText = "SEVERE";
-
             assertThat(consoleLogs).doesNotContain(errorText);
         });
     }
