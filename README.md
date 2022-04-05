@@ -93,3 +93,6 @@ test
 
 
 ## :earth_africa: Примеры-видео-о-прохождении-тестов
+<p align="center">
+  <img title="Selenoid Video" src="image/screen/6f21ef7b7b48825f.mp4">
+</p>
