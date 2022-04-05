@@ -82,7 +82,6 @@ public class GeneratedTests extends TestBase {
             $(".j-error-full-phone").shouldHave(text("Введите номер телефона!"));
         });
 
-
     }
 
 
