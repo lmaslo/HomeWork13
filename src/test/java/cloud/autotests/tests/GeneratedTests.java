@@ -66,6 +66,12 @@ public class GeneratedTests extends TestBase {
         step("Open url 'https://www.wildberries.ru/'", () ->
                 open("https://www.wildberries.ru/"));
 
+
+       /* step("Закрыть поп-ап", () -> {
+            $(".popup-alert__close").should(Condition.visible);
+            $(".popup-alert__close").click();
+        });*/
+
         step("Перейти на страницу Авторизации", () -> {
             $(".j-main-login").click();
         });
