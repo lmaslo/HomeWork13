@@ -62,7 +62,7 @@ public class GeneratedTests extends TestBase {
     @Test
     @Description("Check error auth empty input phone")
     @DisplayName("Check error auth")
-    void checkHeaderAuthTest() {
+    void checkAuthTest() {
         step("Open url 'https://www.wildberries.ru/'", () ->
                 open("https://www.wildberries.ru/"));
 
