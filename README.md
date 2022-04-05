@@ -37,17 +37,20 @@
 </p>
 
 
-## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/"> job </a>
+## <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//"> job </a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/"><img src="images/screens/Screenshot_522.png" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//"><img src="image/screen/JenkinsStartPage.PNG" alt="Jenkins"/></a>
 </p>
 
 ### :maple_leaf: Параметры сборки в Jenkins:
 
-- browser (браузер, по умолчанию chrome)
-- version (версия браузера, по умолчанию 91.0)
-- size (размер окна браузера, по умолчанию 1920x1080)
-- remoteUrl (логин, пароль и адрес удаленного сервера selenoid)
+- REPOSITORY  (репозиторий для сборки)
+- BROWSER (браузер, по умолчанию chrome)
+- BROWSER_VERSION (версия браузера, по умолчанию 100.0)
+- BROWSER_SIZE (размер окна браузера, по умолчанию 1920x1080)
+- REMOTE_DRIVER_URL (логин, пароль и адрес удаленного сервера selenoid)
+- THREADS (количество потоков для запуска тестов, по умолчанию 5)
+- BRANCH ( ветка для запуска, не изменять необходимое значение wildberries)
 
 ## :japanese_ogre: Запуск тестов из терминала
 
@@ -61,12 +64,18 @@ gradle clean test
 clean
 test
 -Dbrowser=${BROWSER}
--Dversion=${VERSION}
--Dsize=${BROWSER_SIZE}
--Durl=${REMOTE_URL}
+-DbrowserVersion=${BROWSER_VERSION}
+-DbrowserSize=${BROWSER_SIZE}
+-DbrowserMobileView="${BROWSER_MOBILE}"
+-DremoteDriverUrl=https://user1:1234@${REMOTE_DRIVER_URL}/wd/hub/
+-DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
+-Dthreads=${THREADS}
 ```
 
-## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
+## <img src="image/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud/21/allure/#suites/501a1ec69c4cfe3daa26cdc0dc557ad7/8c682ec09d4be762/">Allure report</a>
+<p align="center">
+<a href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//"><img src="image/screen/JenkinsStartPage.PNG" alt="Jenkins"/></a>
+</p>
 
 ### :lady_beetle: Основное окно
 
