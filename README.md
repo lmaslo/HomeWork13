@@ -4,6 +4,7 @@
 ## :drop_of_blood: Содержание:
 
 - [Реализованные проверки](#earth_africa-Реализованные-проверки)
+- [Технологии](#earth_africa-Технологии)
 - [Сборка в Jenkins](#earth_africa-Jenkins-job)
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
 - [Allure отчет](#earth_africa-Allure-отчет)
@@ -18,6 +19,23 @@
 - ✓ Проверка текста ошибки на странице авторизации/регистрации
 - ✓ Проверка страницы Адреса
 - ✓ Проверка ошибок в логах браузера
+
+
+## :classical_building: Технологии
+
+<p align="center">
+<img width="6%" title="Idea" src="image/logo/Idea.svg">
+<img width="6%" title="Java" src="image/logo/Java.svg">
+<img width="6%" title="Selenide" src="image/logo/Selenide.svg">
+<img width="6%" title="Selenoid" src="image/logo/Selenoid.svg">
+<img width="6%" title="Allure Report" src="image/logo/Allure.svg">
+<img width="6%" title="Gradle" src="image/logo/Gradle.svg">
+<img width="6%" title="JUnit5" src="image/logo/Junit5.svg">
+<img width="6%" title="GitHub" src="image/logo/GitHub.svg">
+<img width="6%" title="Jenkins" src="image/logo/Jenkins.svg">
+<img width="6%" title="Telegram" src="image/logo/Telegram.svg">
+</p>
+
 
 ## <img src="images/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/"> job </a>
 <p align="center">
