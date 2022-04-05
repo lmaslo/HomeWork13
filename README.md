@@ -85,7 +85,8 @@ test
 
 
 
-## :earth_africa3: <img src="image/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
+## :earth_africa3: Уведомление в Telegram при помощи бота
+<img src="image/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a>
 <p align="center">
 <img src="image/screen/telegramNotification.PNG" alt="Jenkins"/></a>
 </p>
