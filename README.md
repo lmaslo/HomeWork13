@@ -9,7 +9,6 @@
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
 - [Allure отчет](#earth_africa-Allure-отчет)
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
-- [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
 
 
 ## :boom: Реализованные проверки
@@ -91,7 +90,4 @@ test
 <img src="image/screen/telegramNotification.PNG" alt="Jenkins"/></a>
 </p>
 
-
-## :earth_africa: Примеры-видео-о-прохождении-тестов
-  <iframe width="854" height="480" src="src="image/screen/6f21ef7b7b48825f.mp4" frameborder="0" allowfullscreen></iframe>
 
