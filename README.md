@@ -5,7 +5,7 @@
 
 - [Реализованные проверки](#boom-Реализованные-проверки)
 - [Технологии](#classical_building-Технологии)
-- [Сборка в Jenkins](#earth_africa1-Jenkins-job)
+- [Сборка в Jenkins](#tests-launch-Jenkins)
 - [Запуск из терминала](#earth_africa2-Запуск-тестов-из-терминала)
 - [Allure отчет](#earth_africa-Allure-отчет)
 - [Отчет в Telegram](#earth_africa3-Уведомление-в-Telegram-при-помощи-бота)
@@ -36,7 +36,7 @@
 </p>
 
 
-## :earth_africa1: <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//"> job </a>
+##  <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//"> job </a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//"><img src="image/screen/JenkinsStartPage.PNG" alt="Jenkins"/></a>
 </p>
