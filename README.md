@@ -42,6 +42,7 @@
 <a href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//"><img src="image/screen/JenkinsStartPage.PNG" alt="Jenkins"/></a>
 </p>
 
+
 ### :maple_leaf: Параметры сборки в Jenkins:
 
 - REPOSITORY  (репозиторий для сборки)
@@ -75,6 +76,9 @@ test
 ## <img src="image/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud/21/allure/#suites/501a1ec69c4cfe3daa26cdc0dc557ad7/8c682ec09d4be762/">Allure report</a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud/21/allure/#suites/501a1ec69c4cfe3daa26cdc0dc557ad7/8c682ec09d4be762/"><img src="image/screen/Allure1.PNG" alt="Jenkins"/></a>
+</p>
+<p align="center">
+<a href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud/21/allure/#suites/501a1ec69c4cfe3daa26cdc0dc557ad7/8c682ec09d4be762/"><img src="image/screen/Allure2.PNG" alt="Jenkins"/></a>
 </p>
 
 ### :lady_beetle: Основное окно
