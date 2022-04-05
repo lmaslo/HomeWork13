@@ -72,7 +72,7 @@ test
 -Dthreads=${THREADS}
 ```
 
-## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
+## <img src="image/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud/21/allure/#suites/501a1ec69c4cfe3daa26cdc0dc557ad7/8c682ec09d4be762/">Allure report</a>
 
 ### :lady_beetle: Основное окно
 
