@@ -64,9 +64,12 @@ gradle clean test
 clean
 test
 -Dbrowser=${BROWSER}
--Dversion=${VERSION}
--Dsize=${BROWSER_SIZE}
--Durl=${REMOTE_URL}
+-DbrowserVersion=${BROWSER_VERSION}
+-DbrowserSize=${BROWSER_SIZE}
+-DbrowserMobileView="${BROWSER_MOBILE}"
+-DremoteDriverUrl=https://user1:1234@${REMOTE_DRIVER_URL}/wd/hub/
+-DvideoStorage=https://${REMOTE_DRIVER_URL}/video/
+-Dthreads=${THREADS}
 ```
 
 ## <img src="images/logo/Allure.svg" width="25" height="25"  alt="Allure"/></a> Отчет в <a target="_blank" href="https://jenkins.autotests.cloud/job/10_DikayaAV_unit13/allure/">Allure report</a>
