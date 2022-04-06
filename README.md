@@ -3,13 +3,12 @@
 
 ## :drop_of_blood: Содержание:
 
-- [Реализованные проверки](#earth_africa-Реализованные-проверки)
-- [Технологии](#earth_africa-Технологии)
-- [Сборка в Jenkins](#earth_africa-Jenkins-job)
+- [Реализованные проверки](#boom-Реализованные-проверки)
+- [Технологии](#classical_building-Технологии)
+- [Сборка в Jenkins](#Jenkins-job)
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
 - [Allure отчет](#earth_africa-Allure-отчет)
-- [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
-- [Видео примеры прохождения тестов](#earth_africa-Примеры-видео-о-прохождении-тестов)
+- [Отчет в Telegram](#envelope-Уведомление-в-Telegram-при-помощи-бота)
 
 
 ## :boom: Реализованные проверки
@@ -37,13 +36,14 @@
 </p>
 
 
-## <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a> Jenkins <a target="_blank" href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//"> job </a>
+## Jenkins job
+<img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a>  <a target="_blank" href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//">Jenkins job</a>
 <p align="center">
-<a href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//"><img src="image/screen/JenkinsStartPage.PNG" alt="Jenkins"/></a>
+<a href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud/"><img src="image/screen/JenkinsStartPage.PNG" alt="Jenkins"/></a>
 </p>
 
 
-### :maple_leaf: Параметры сборки в Jenkins:
+###  Параметры сборки в Jenkins:
 
 - REPOSITORY  (репозиторий для сборки)
 - BROWSER (браузер, по умолчанию chrome)
@@ -53,7 +53,7 @@
 - THREADS (количество потоков для запуска тестов, по умолчанию 5)
 - BRANCH ( ветка для запуска, не изменять необходимое значение wildberries)
 
-## :japanese_ogre: Запуск тестов из терминала
+## :earth_africa: Запуск тестов из терминала
 
 Локальный запуск:
 ```
@@ -85,11 +85,9 @@ test
 
 
 
-
-## <img src="image/logo/Telegram.svg" width="25" height="25"  alt="Allure"/></a> Уведомление в Telegram при помощи бота
+## :envelope: Уведомление-в-Telegram-при-помощи-бота
 <p align="center">
 <img src="image/screen/telegramNotification.PNG" alt="Jenkins"/></a>
 </p>
 
 
-## :earth_africa: Примеры-видео-о-прохождении-тестов
