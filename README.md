@@ -36,7 +36,7 @@
 </p>
 
 
-##  <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a>  <a target="_blank" href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//"> Jenkins job </a>
+##  <img src="image/logo/Jenkins.svg" width="25" height="25"  alt="Jenkins"/></a>  <a target="_blank" href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud//">Jenkins job</a>
 <p align="center">
 <a href="https://jenkins.autotests.cloud/job/011-maslogirl-13Lesson-Autotests.cloud/"><img src="image/screen/JenkinsStartPage.PNG" alt="Jenkins"/></a>
 </p>
