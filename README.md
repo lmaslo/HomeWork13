@@ -5,7 +5,7 @@
 
 - [Реализованные проверки](#boom-Реализованные-проверки)
 - [Технологии](#classical_building-Технологии)
-- [Сборка в Jenkins](#boom-Jenkins-job)
+- [Сборка в Jenkins](#Jenkins-job)
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
 - [Allure отчет](#earth_africa-Allure-отчет)
 - [Отчет в Telegram](#earth_africa-Уведомление-в-Telegram-при-помощи-бота)
