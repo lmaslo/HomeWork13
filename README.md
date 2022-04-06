@@ -9,6 +9,7 @@
 - [Запуск из терминала](#earth_africa-Запуск-тестов-из-терминала)
 - [Allure отчет](#earth_africa-Allure-отчет)
 - [Отчет в Telegram](#envelope-Уведомление-в-Telegram-при-помощи-бота)
+- [Видео пример](#video_camera-Видео)
 
 
 ## :boom: Реализованные проверки
@@ -91,6 +92,7 @@ test
 </p>
 
 
+## :video_camera: Видео
 <p align="center">
 <img src="image/screen/6f21ef7b7b48825f.gif" alt="video"/></a>
 </p>
