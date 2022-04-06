@@ -87,7 +87,13 @@ test
 
 ## :envelope: Уведомление-в-Telegram-при-помощи-бота
 <p align="center">
-<img src="image/screen/telegramNotification.PNG" alt="Jenkins"/></a>
+<img src="image/screen/telegramNotification.PNG" alt="Telegram"/></a>
 </p>
+
+
+<p align="center">
+<img src="image/screen/6f21ef7b7b48825f.gif" alt="video"/></a>
+</p>
+
 
 
